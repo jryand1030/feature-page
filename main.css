@@ -1,32 +1,18 @@
 body{
     background: rgba(29, 36, 133,.9);
-  
-}
-canvas{
-    height: 100vh;
-    width:50vw;
-    border:solid;
-}
-.interface{
-    margin-left:25%;
-}
-
-.informationBrochure{
-    height:100vh;
-    width:50vw;
-    border:solid;
-    
 
 }
-
 .edgeGraphic{
 
     height:100%;
-    width:100%;
-    border:solid;
-    
-   
+    width:50%;
 
+}
+
+/* The interface image  */
+.interface{
+    margin-left:25%;
+    
 }
 
 .absolute-pos{
@@ -39,12 +25,10 @@ canvas{
 }
 #computerScreen1{
     margin-right:10%;
-    
-
-    
+        
 }
 #computerScreen2{
-    margin-left:15%;
+    margin-left:20%;
     margin-top:1%;
 }
 
@@ -54,8 +38,8 @@ canvas{
 }
 
 #computerScreen4{
-    margin-left:-10%;
-    margin-top:-15%;
+    margin-left:-15%;
+    margin-top:-23%;
     z-index: 2;
 }
 
@@ -70,39 +54,76 @@ canvas{
 }
 
 
-
-.absolute-pos1{
+/* Cloud Graphic */
+/* .absolute-pos1{
     position:absolute;
-}
+} */
 .cloud{
-    margin-top:60%;
+    margin-top:40%;
     margin-left:25%;
+    height:50%;
 }
+#Cloud{
+    height:12%;
+    margin-top:-13%;
+    margin-left:10%;
+} 
+ 
+#cloudElement1{
+ 
+    height:10%;
+    margin-top:10%;
+ }
+#cloudElement3{
+    margin-left:15%;
+    height:10%;
+    margin-top:24%;
+ }
+
+ #cloudElement5{
+   margin-left:-7%;
+    height:10%;
+    margin-top:24%;
+ }
+#cloudElement2{
+    margin-left:37%;
+    height:10%;
+    margin-top:24%;
+ }
+
 #cloudElement4{
-    margin:10%;
-    margin-top:-10%;
+   margin-left:58%;
+   height:10%;
+   margin-top:24%;
+}
+#cloudElement6{
+    margin-left:60%;
+    height:15%;
+    width:5%;
+    margin-top:30%;
+ } 
+
+
+/* right side information brochure */
+.informationBrochure{
+    height:100%;
+    width:100%;  
+}
+.interfaceInformation{
+    margin-top:15%;
 }
 
-#cloudElement1{
-    margin:7%;
-    height:30%;
-    width:30%;
+.cloudInformation{
+    margin-top:35%;
 }
-#cloudElement1{
-    margin:18.5%;
-    margin-top:10%;
-    height:30%;
-    width:30%;
+/* Features and description of product */
+
+.features{
+    margin-top:5%;
+    text-decoration:underline;
 }
-#cloudElement2{
-    margin:12%;
-    margin-top:20%;;
-    height:30%;
-    width:30%;
+
+ul{
+    list-style:none;
 }
-#cloudElement3{
-    margin:15%;
-    margin-top:20%;
-    height:30%;
-    width:30%;
-}
+
