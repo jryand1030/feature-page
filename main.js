@@ -10,7 +10,12 @@ var scrollOutAnim = new TimelineMax()
 .add([
 
 // comuter interface scroll animations
-TweenMax.from("#computerScreen1",1,{y:20,x:15, autoAlpha:0, delay:1}),
+TweenMax.from("#computerMain",5,{y:0,x:0, autoAlpha:0, delay:1}),
+TweenMax.from("#man",5,{y:0,x:0, autoAlpha:0, delay:1}),
+TweenMax.from("#computerLinesBottom",5,{y:0,x:0, autoAlpha:0, delay:1}),
+TweenMax.from(".platform",5,{y:0,x:0, autoAlpha:0, delay:1}),
+
+TweenMax.from("#computerScreen1",1,{y:20,x:15, autoAlpha:0, delay:2}),
 TweenMax.to("#computerScreen1",5,{y:20,x:15, autoAlpha:0, delay:15}),
 
 TweenMax.from("#computerScreen2",2,{y:20,x:-55, autoAlpha:0, delay:5}),
@@ -25,6 +30,7 @@ TweenMax.to("#computerScreen4",5,{y:0,x:25, autoAlpha:0, delay:15}),
 TweenMax.to("#computerMain",5,{y:0,x:0, autoAlpha:0, delay:15}),
 TweenMax.to("#man",5,{y:0,x:0, autoAlpha:0, delay:15}),
 TweenMax.to("#computerLinesBottom",5,{y:0,x:0, autoAlpha:0, delay:15}),
+
 
 
 // cloud animations graphic
@@ -47,13 +53,32 @@ TweenMax.to('#cloudElement4',10,{autoAlpha:0, delay:60}),
 
 TweenMax.from("#cloudElement5",10,{autoAlpha:0, delay:50}),
 TweenMax.to('#cloudElement5',10,{autoAlpha:0, delay:60}),
+
+
+// egdge computer animation graphic
+
+TweenMax.from("#computer",1,{autoAlpha:0, delay:80}),
+TweenMax.to('#computer',1,{autoAlpha:0, delay:88}),
+
+TweenMax.from("#edgeElement1",10,{autoAlpha:0, delay:83}),
+TweenMax.to('#edgeElement1',1,{autoAlpha:0, delay:88}),
+
+TweenMax.from("#edgeElement2",1,{autoAlpha:0, delay:86}),
+TweenMax.to('#edgeElement2',2,{autoAlpha:0, delay:88}),
+
+TweenMax.to(".platform",2,{y:0,x:0, autoAlpha:0, delay:90}),
+
+// the Call to Action(request for a demo)
+TweenMax.from(".title",10,{y:250, x:20, autoAlpha:0, delay:90}),
+TweenMax.from(".demo",10,{y:100, x:20, autoAlpha:0, delay:90}),
+TweenMax.from("#login",10,{y:200, x:20, autoAlpha:0, delay:95}),
 ]);
                                                                     //  this code builds the interface scene from the library
 
 var scrollScene =new ScrollMagic.Scene({
     triggerElement:'interfaceInformation',
     triggerHook:1,
-    duration:"1000%"})
+    duration:"2000%"})
 
     .setTween(scrollOutAnim)
     .setPin(".interface")
@@ -62,7 +87,9 @@ var scrollScene =new ScrollMagic.Scene({
                                                                   // scripts for the right side interface features 
 var scrollOutAnim = new TimelineMax()
 .add([
-TweenMax.to("#interface",1,{autoAlpha:0,delay:1,}),
+TweenMax.from("#interface",1,{autoAlpha:0,delay:0,}),
+TweenMax.to("#interface",1,{autoAlpha:0,delay:15,}),
+
 
 TweenMax.from(".interfaceFeature1",1,{y:0,x:0, autoAlpha:0, delay:1,}),
 TweenMax.to(".interfaceFeature1",1,{y:0,x:0, autoAlpha:0, delay:15,}),
@@ -80,6 +107,9 @@ TweenMax.to(".interfaceFeature4",1,{y:0,x:0, autoAlpha:0, delay:15}),
 // The features (right side) for cloud information animation graphics
 
 
+TweenMax.from("#cloud",1,{autoAlpha:0,delay:25,}),
+TweenMax.to("#cloud",2,{autoAlpha:0,delay:60,}),
+
 TweenMax.from(".cloudFeature1",1,{y:0,x:0, autoAlpha:0, delay:30,}),
 TweenMax.to(".cloudFeature1",1,{y:0,x:0, autoAlpha:0, delay:60,}),
 
@@ -90,7 +120,26 @@ TweenMax.from(".cloudFeature3",1,{y:0,x:0, autoAlpha:0, delay:40}),
 TweenMax.to(".cloudFeature3",1,{y:0,x:0, autoAlpha:0, delay:60}),
 
 TweenMax.from(".cloudFeature4",1,{y:0,x:0, autoAlpha:0, delay:45}),
-TweenMax.to(".cloudFeature4",1,{y:0,x:0, autoAlpha:0, delay:60})
+TweenMax.to(".cloudFeature4",1,{y:0,x:0, autoAlpha:0, delay:60}),
+
+
+// swicth scene to the edge features
+
+TweenMax.from("#edge",1,{autoAlpha:0,delay:60,}),
+TweenMax.to("#edge",1,{autoAlpha:0,delay:70,}),
+
+TweenMax.from(".edgeFeature1",1,{y:0,x:0, autoAlpha:0, delay:60,}),
+TweenMax.to(".edgeFeature1",1,{y:0,x:0, autoAlpha:0, delay:70,}),
+
+TweenMax.from(".edgeFeature2",1,{y:0,x:0, autoAlpha:0, delay:65}),
+TweenMax.to(".edgeFeature2",1,{y:0,x:0, autoAlpha:0, delay:70}),
+
+TweenMax.from(".edgeFeature3",1,{y:0,x:0, autoAlpha:0, delay:67}),
+TweenMax.to(".edgeFeature3",1,{y:0,x:0, autoAlpha:0, delay:70}),
+
+TweenMax.from(".requestDemo",1,{y:0,x:0, autoAlpha:0, delay:73}),
+TweenMax.from(".final",1,{y:0,x:0, autoAlpha:0, delay:75}),
+
 
 ])
 
@@ -101,7 +150,7 @@ TweenMax.to(".cloudFeature4",1,{y:0,x:0, autoAlpha:0, delay:60})
 var scrollScene =new ScrollMagic.Scene({
     triggerElement:'interfaceInformation',
     triggerHook:1,
-    duration:"1000%",
+    duration:"2000%",
    
 })
 
