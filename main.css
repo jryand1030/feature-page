@@ -1,5 +1,10 @@
+html{
+    box-sizing: border-box;
+}
+
+
 body{
-    background:url('/main-background.jpg');
+    background:#0a0426;
     background-repeat: no-repeat;
     background-size:cover;
     height:100%;
@@ -12,11 +17,17 @@ body{
 
 
 /* The interface image  */
+.logo{
+    margin-top:14%;
+    z-index: -1000;
+}
 .interface{
+    margin-bottom:-55%;
     margin-left:20%;
     background-image: url('/graphic-background.jpg');
     background-repeat: no-repeat;
-    height:100%;
+    height:200%;
+    
     
 }
 h3{
@@ -24,6 +35,8 @@ h3{
 }
 .row{
     width:100%;
+    line-height: 50%;
+    margin-top:-10%;
 }
 
 .absolute-pos{
@@ -78,7 +91,7 @@ h3{
 .col-md-6{
     height:100%;
     width:100%;
-    margin-top:10%; /* manipulate when you want to transition from interface to cloud */
+    /* margin-top:10%; manipulate when you want to transition from interface to cloud */
 }
 #cloudTrigger{
     margin-top:20%;
@@ -180,6 +193,7 @@ ul{
 }
 li{
     color:gold;
+    line-height: 40px;
 }
 h3{
     color:gold;
@@ -196,13 +210,14 @@ h3{
 }
 .demo{
     color:gold;
+    margin:5%;
 }
 .requestDemo{
-    margin-top:-24%;
+    margin-top:-35%;
     color:gold;
 }
  .form-signin{
-     margin-top:-60%;
+     margin-top:-80%;
      margin-left:-10%;
  }
 #final{
@@ -213,6 +228,7 @@ h3{
 }
 .features{
     color:gold;
+    
 }
  
  input{

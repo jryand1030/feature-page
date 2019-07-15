@@ -1,0 +1,116 @@
+
+canvas{
+    z-index: -100;
+    height:100%;
+    margin-top:10%;
+  
+}
+hr{
+    width:45%;
+    border-color:#ffd700;
+}
+.words{
+    margin-left:50%;
+    text-align: center;
+    font-style: italic;
+    color:gold;
+    padding:7%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#fire{
+    margin-left:67%;
+    margin-top:2%;
+    height:200px;
+    overflow: hidden;
+    z-index: 1000;
+ 
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+
+
+
+svg {
+    display: block;
+    font: 5.5em 'Montserrat';
+    width: 100%;
+    height: 20%;
+    margin: 0 auto;
+  
+  
+}
+
+.logo{
+    margin-top:4%;
+}
+.text-copy {
+    fill: black;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 1px;
+    stroke-dashoffset: 2%;
+    animation: stroke-offset 10s infinite linear;
+}
+
+.text-copy:nth-child(1){
+    stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	50% {stroke-dashoffset: -40%;}
+}
+
+.words{
+    margin-left:15%;
+    
+    /* position: relative; */
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(120deg, #000, rgb(199, 202, 12), #000);
+    background-repeat: no-repeat;
+    background-size: 84%;
+    animation: animate 5s linear;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+      /* box-shadow:linear-gradient(90deg, #000, rgb(209, 212, 11), #000); */
+    }
+    100% {
+      background-position: 500%;
+      /* box-shadow:linear-gradient(90deg, #000, rgb(209, 212, 11), #000); */
+
+    }
+  }

@@ -1,5 +1,37 @@
+// *************************************************************Logo Animation*****************************************************************************
+
+
+
+// var animation2 = bodymovin.loadAnimation({
+//     container: document.getElementById('openScene'),
+//     renderer:'svg',
+//     loop:true,
+//     autoplay:true,
+//     path:'fire.json'
+// })
+
+
+
+
+
 jQuery(document).ready(function($){
+
+
+
+
+
+
+
+
+
+
 // ***************************************************************Interface Scene******************************************************************************
+
+
+
+
+
+
 
                                             // scroll magic interface scene javascript //
     
@@ -36,42 +68,42 @@ TweenMax.to("#computerLinesBottom",5,{y:0,x:0, autoAlpha:0, delay:15}),
 // cloud animations graphic
 
 
-TweenMax.from("#Cloud",10,{autoAlpha:0, delay:25}),
+TweenMax.from("#Cloud",10,{autoAlpha:0, delay:15}),
 TweenMax.to('#Cloud',10,{autoAlpha:0, delay:60}),
 
-TweenMax.from("#cloudElement1",10,{autoAlpha:0, delay:30}),
+TweenMax.from("#cloudElement1",10,{autoAlpha:0, delay:20}),
 TweenMax.to('#cloudElement1',10,{autoAlpha:0, delay:60}),
 
-TweenMax.from("#cloudElement2",10,{autoAlpha:0, delay:35}),
+TweenMax.from("#cloudElement2",10,{autoAlpha:0, delay:25}),
 TweenMax.to('#cloudElement2',10,{autoAlpha:0, delay:60}),
 
-TweenMax.from("#cloudElement3",10,{autoAlpha:0, delay:40}),
+TweenMax.from("#cloudElement3",10,{autoAlpha:0, delay:35}),
 TweenMax.to('#cloudElement3',10,{autoAlpha:0, delay:60}),
 
-TweenMax.from("#cloudElement4",10,{autoAlpha:0, delay:45}),
+TweenMax.from("#cloudElement4",10,{autoAlpha:0, delay:40}),
 TweenMax.to('#cloudElement4',10,{autoAlpha:0, delay:60}),
 
-TweenMax.from("#cloudElement5",10,{autoAlpha:0, delay:50}),
+TweenMax.from("#cloudElement5",10,{autoAlpha:0, delay:45}),
 TweenMax.to('#cloudElement5',10,{autoAlpha:0, delay:60}),
 
 
 // egdge computer animation graphic
 
-TweenMax.from("#computer",1,{autoAlpha:0, delay:80}),
-TweenMax.to('#computer',1,{autoAlpha:0, delay:88}),
+TweenMax.from("#computer",1,{autoAlpha:0, delay:72}),
+TweenMax.to('#computer',1,{autoAlpha:0, delay:90}),
 
-TweenMax.from("#edgeElement1",10,{autoAlpha:0, delay:83}),
-TweenMax.to('#edgeElement1',1,{autoAlpha:0, delay:88}),
+TweenMax.from("#edgeElement1",1,{autoAlpha:0, delay:79}),
+TweenMax.to('#edgeElement1',1,{autoAlpha:0, delay:90}),
 
-TweenMax.from("#edgeElement2",1,{autoAlpha:0, delay:86}),
-TweenMax.to('#edgeElement2',2,{autoAlpha:0, delay:88}),
+TweenMax.from("#edgeElement2",1,{autoAlpha:0, delay:88}),
+TweenMax.to('#edgeElement2',1,{autoAlpha:0, delay:90}),
 
-TweenMax.to(".platform",2,{y:0,x:0, autoAlpha:0, delay:90}),
+TweenMax.to(".platform",1,{y:0,x:0, autoAlpha:0, delay:90}),
 
 // the Call to Action(request for a demo)
-TweenMax.from(".title",10,{y:250, x:20, autoAlpha:0, delay:90}),
-TweenMax.from(".demo",10,{y:100, x:20, autoAlpha:0, delay:90}),
-TweenMax.from("#login",10,{y:200, x:20, autoAlpha:0, delay:95}),
+TweenMax.from(".title",10,{y:250, x:20, autoAlpha:0, delay:95}),
+TweenMax.from(".demo",10,{y:100, x:20, autoAlpha:0, delay:97}),
+TweenMax.from("#login",10,{y:200, x:20, autoAlpha:0, delay:98}),
 ]);
                                                                     //  this code builds the interface scene from the library
 
@@ -107,38 +139,38 @@ TweenMax.to(".interfaceFeature4",1,{y:0,x:0, autoAlpha:0, delay:15}),
 // The features (right side) for cloud information animation graphics
 
 
-TweenMax.from("#cloud",1,{autoAlpha:0,delay:25,}),
-TweenMax.to("#cloud",2,{autoAlpha:0,delay:60,}),
+TweenMax.from("#cloud",1,{autoAlpha:0,delay:15,}),
+TweenMax.to("#cloud",2,{autoAlpha:0,delay:50,}),
 
-TweenMax.from(".cloudFeature1",1,{y:0,x:0, autoAlpha:0, delay:30,}),
-TweenMax.to(".cloudFeature1",1,{y:0,x:0, autoAlpha:0, delay:60,}),
+TweenMax.from(".cloudFeature1",1,{y:0,x:0, autoAlpha:0, delay:20,}),
+TweenMax.to(".cloudFeature1",1,{y:0,x:0, autoAlpha:0, delay:50,}),
 
-TweenMax.from(".cloudFeature2",1,{y:0,x:0, autoAlpha:0, delay:35}),
-TweenMax.to(".cloudFeature2",1,{y:0,x:0, autoAlpha:0, delay:60}),
+TweenMax.from(".cloudFeature2",1,{y:0,x:0, autoAlpha:0, delay:27}),
+TweenMax.to(".cloudFeature2",1,{y:0,x:0, autoAlpha:0, delay:50}),
 
-TweenMax.from(".cloudFeature3",1,{y:0,x:0, autoAlpha:0, delay:40}),
-TweenMax.to(".cloudFeature3",1,{y:0,x:0, autoAlpha:0, delay:60}),
+TweenMax.from(".cloudFeature3",1,{y:0,x:0, autoAlpha:0, delay:32}),
+TweenMax.to(".cloudFeature3",1,{y:0,x:0, autoAlpha:0, delay:50}),
 
-TweenMax.from(".cloudFeature4",1,{y:0,x:0, autoAlpha:0, delay:45}),
-TweenMax.to(".cloudFeature4",1,{y:0,x:0, autoAlpha:0, delay:60}),
+TweenMax.from(".cloudFeature4",1,{y:0,x:0, autoAlpha:0, delay:36}),
+TweenMax.to(".cloudFeature4",1,{y:0,x:0, autoAlpha:0, delay:50}),
 
 
 // swicth scene to the edge features
 
-TweenMax.from("#edge",1,{autoAlpha:0,delay:60,}),
-TweenMax.to("#edge",1,{autoAlpha:0,delay:70,}),
+TweenMax.from("#edge",1,{autoAlpha:0,delay:50,}),
+TweenMax.to("#edge",1,{autoAlpha:0,delay:73,}),
 
-TweenMax.from(".edgeFeature1",1,{y:0,x:0, autoAlpha:0, delay:60,}),
-TweenMax.to(".edgeFeature1",1,{y:0,x:0, autoAlpha:0, delay:70,}),
+TweenMax.from(".edgeFeature1",1,{y:0,x:0, autoAlpha:0, delay:56,}),
+TweenMax.to(".edgeFeature1",1,{y:0,x:0, autoAlpha:0, delay:73,}),
 
 TweenMax.from(".edgeFeature2",1,{y:0,x:0, autoAlpha:0, delay:65}),
-TweenMax.to(".edgeFeature2",1,{y:0,x:0, autoAlpha:0, delay:70}),
+TweenMax.to(".edgeFeature2",1,{y:0,x:0, autoAlpha:0, delay:73}),
 
-TweenMax.from(".edgeFeature3",1,{y:0,x:0, autoAlpha:0, delay:67}),
-TweenMax.to(".edgeFeature3",1,{y:0,x:0, autoAlpha:0, delay:70}),
+TweenMax.from(".edgeFeature3",1,{y:0,x:0, autoAlpha:0, delay:69}),
+TweenMax.to(".edgeFeature3",1,{y:0,x:0, autoAlpha:0, delay:73}),
 
-TweenMax.from(".requestDemo",1,{y:0,x:0, autoAlpha:0, delay:73}),
-TweenMax.from(".final",1,{y:0,x:0, autoAlpha:0, delay:75}),
+TweenMax.from(".requestDemo",1,{y:0,x:0, autoAlpha:0, delay:75}),
+TweenMax.from(".final",1,{y:0,x:0, autoAlpha:0, delay:85}),
 
 
 ])
