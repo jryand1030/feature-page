@@ -22,11 +22,11 @@ body{
     z-index: -1000;
 }
 .interface{
-    margin-bottom:-55%;
+    /* margin-bottom:-55%; */
     margin-left:20%;
     background-image: url('/graphic-background.jpg');
     background-repeat: no-repeat;
-    height:200%;
+    height:100%;
     
     
 }
