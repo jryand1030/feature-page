@@ -93,15 +93,15 @@ TweenMax.to('#cloudElement5',10,{autoAlpha:0, delay:60}),
 // egdge computer animation graphic
 
 TweenMax.from("#computer",1,{autoAlpha:0, delay:72}),
-TweenMax.to('#computer',1,{autoAlpha:0, delay:90}),
+TweenMax.to('#computer',1,{autoAlpha:0, delay:92}),
 
 TweenMax.from("#edgeElement1",1,{autoAlpha:0, delay:79}),
-TweenMax.to('#edgeElement1',1,{autoAlpha:0, delay:90}),
+TweenMax.to('#edgeElement1',1,{autoAlpha:0, delay:92}),
 
-TweenMax.from("#edgeElement2",1,{autoAlpha:0, delay:88}),
-TweenMax.to('#edgeElement2',1,{autoAlpha:0, delay:90}),
+TweenMax.from("#edgeElement2",1,{autoAlpha:0, delay:86}),
+TweenMax.to('#edgeElement2',1,{autoAlpha:0, delay:92}),
 
-TweenMax.to(".platform",1,{y:0,x:0, autoAlpha:0, delay:90}),
+TweenMax.to(".platform",1,{y:0,x:0, autoAlpha:0, delay:92}),
 
 // the Call to Action(request for a demo)
 TweenMax.from(".title",10,{y:250, x:20, autoAlpha:0, delay:95}),
@@ -166,13 +166,13 @@ TweenMax.to("#edge",1,{autoAlpha:0,delay:73,}),
 TweenMax.from(".edgeFeature1",1,{y:0,x:0, autoAlpha:0, delay:56,}),
 TweenMax.to(".edgeFeature1",1,{y:0,x:0, autoAlpha:0, delay:73,}),
 
-TweenMax.from(".edgeFeature2",1,{y:0,x:0, autoAlpha:0, delay:65}),
+TweenMax.from(".edgeFeature2",1,{y:0,x:0, autoAlpha:0, delay:63}),
 TweenMax.to(".edgeFeature2",1,{y:0,x:0, autoAlpha:0, delay:73}),
 
 TweenMax.from(".edgeFeature3",1,{y:0,x:0, autoAlpha:0, delay:69}),
 TweenMax.to(".edgeFeature3",1,{y:0,x:0, autoAlpha:0, delay:73}),
 
-TweenMax.from(".requestDemo",1,{y:0,x:0, autoAlpha:0, delay:75}),
+TweenMax.from(".requestDemo",1,{y:0,x:0, autoAlpha:0, delay:79}),
 TweenMax.from(".final",1,{y:0,x:0, autoAlpha:0, delay:85}),
 
 

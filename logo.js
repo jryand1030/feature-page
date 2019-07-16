@@ -29,7 +29,7 @@ window.reqFrame = (function(){
    
   particle = function(){
     this.xpos = 600;
-    this.ypos = 700;
+    this.ypos = 900;
     
     // Initializes X-axis speed between
     // -1.5 and 1.5
