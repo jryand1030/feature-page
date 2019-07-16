@@ -41,6 +41,9 @@ var controller = new ScrollMagic.Controller();
 var scrollOutAnim = new TimelineMax()
 .add([
 
+TweenMax.to(".logo",1,{y:0,x:0, autoAlpha:0, delay:0}),
+
+
 // comuter interface scroll animations
 TweenMax.from("#computerMain",5,{y:0,x:0, autoAlpha:0, delay:1}),
 TweenMax.from("#man",5,{y:0,x:0, autoAlpha:0, delay:1}),
