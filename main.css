@@ -20,7 +20,7 @@ body{
 
 /* The interface image  */
 .logo{
-    margin-top:14%;
+    margin-top:40%;
     z-index: -1000;
 }
 .interface{
@@ -40,7 +40,7 @@ h3{
 .row{
     width:100%;
     line-height: 50%;
-    margin-top:-2%;
+    margin-top:-4%;
 }
 
 .absolute-pos{

@@ -19,7 +19,7 @@ hr{
 }
 #fire{
     margin-left:67%;
-    margin-top:3%;
+    margin-top:7%;
     height:200px;
     overflow: hidden;
     z-index: 1000;
@@ -45,7 +45,7 @@ svg {
 }
 
 .logo{
-    margin-top:44%;
+    margin-top:50%;
 }
 .text-copy {
     fill: black;
